@@ -1,6 +1,6 @@
 # RedGPT: Reference-Enlightened-Dialogue by GPT and for GPT
 
-[[English Version](README.md)]
+[[English Version](README_EN.md)]
 
 众所周知，事实正确性是ChatGPT的一大薄弱环节，也是所有试图复现ChatGPT的同行们所面临的重大挑战。想要提升事实正确性，可以标注大量的事实型对话数据（比如人物、科技、医疗、法律、艺术）用于微调GPT模型。为了避免人工标注的昂贵成本，我们提出一种自动生成事实型对话的方法，并公开我们的部分数据。我们公开的第一批数据（RedGPT-Dataset-V1-CN）共包含5万条中文多轮对话。
 
@@ -264,7 +264,7 @@ We used certain existing LLMs to generate a large number of multi-turn QAs (of w
 
 
 1. [Dongjie Yang], djyang.tony@sjtu.edu.cn
-2. [Ruifeng Yuan], csryuan@comp.polyu.edu.hk
+2. [Ruifeng Yuan], ruifeng.yuan@connect.polyu.hk
 3. [Yuantao Fan], yuantaofan@bupt.edu.cn
 4. [Yifei Yang], yifeiyang@sjtu.edu.cn
 5. [Zili Wang](https://commencement.github.io/), ziliwang.do@gmail.com
