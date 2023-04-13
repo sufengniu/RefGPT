@@ -102,10 +102,10 @@
 
 ## 主要贡献者
 
-1. [杨东杰], djyang.tony@sjtu.edu.cn
-2. [袁瑞峰], ruifeng.yuan@connect.polyu.hk
-3. [范元涛], yuantaofan@bupt.edu.cn
-4. [杨逸飞], yifeiyang@sjtu.edu.cn
+1. 杨东杰, djyang.tony@sjtu.edu.cn
+2. [袁瑞峰](https://scholar.google.com.hk/citations?user=zPj0R-8AAAAJ&hl=zh-CN), ruifeng.yuan@connect.polyu.hk
+3. 范元涛, yuantaofan@bupt.edu.cn
+4. 杨逸飞, yifeiyang@sjtu.edu.cn
 5. [汪自力](https://commencement.github.io/), ziliwang.do@gmail.com
 6. [王树森](http://wangshusen.github.io/)，wssatzju@gmail.com
 
