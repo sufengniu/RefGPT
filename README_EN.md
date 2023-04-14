@@ -132,10 +132,10 @@ We used certain existing LLMs to generate a large number of multi-turn QAs (of w
 ## Contributors
 
 
-1. [Dongjie Yang], djyang.tony@sjtu.edu.cn
-2. [Ruifeng Yuan], ruifeng.yuan@connect.polyu.hk
-3. [Yuantao Fan], yuantaofan@bupt.edu.cn
-4. [Yifei Yang], yifeiyang@sjtu.edu.cn
+1. Dongjie Yang, djyang.tony@sjtu.edu.cn
+2. [Ruifeng Yuan](http://www4.comp.polyu.edu.hk/~csryuan/), ruifeng.yuan@connect.polyu.hk
+3. Yuantao Fan, yuantaofan@bupt.edu.cn
+4. Yifei Yang, yifeiyang@sjtu.edu.cn
 5. [Zili Wang](https://commencement.github.io/), ziliwang.do@gmail.com
 6. [Shusen Wang](http://wangshusen.github.io/), wssatzju@gmail.com
 
