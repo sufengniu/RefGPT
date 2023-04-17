@@ -1,4 +1,4 @@
-# RedGPT: Reference-Enlightened-Dialogue by GPT and for GPT
+# RefGPT: Reference-to-Dialogue by GPT and for GPT
 
 [[中文版](README.md)]
 
@@ -6,7 +6,7 @@
 
 Factual accuracy remains a prominent challenge for ChatGPT and its replicas, such as the Llama family. It's widely accepted that enhancing both the volume and quality of factual information during the fine-tuning process consistently results in improved factual correctness. However, relying on human experts to create multi-turn question and answer content can be costly and time-consuming. 
 
-To address this issue, we introduce a cost-effective method called *RedGPT*, which generates a vast amount of high-quality multi-turn Q&A content. We have developed a dataset called *RedGPT-Dataset* to showcase our approach. Our initial release, *RedGPT-Dataset-V1-CN*, offers 50,000 Chinese multi-turn dialogues.
+To address this issue, we introduce a cost-effective method called *RefGPT*, which generates a vast amount of high-quality multi-turn Q&A content. We have developed a dataset called *RefGPT-Dataset* to showcase our approach. Our initial release, *ReGPT-Dataset-V1-CN*, offers 50,000 Chinese multi-turn dialogues.
 
 
 
@@ -20,7 +20,7 @@ Our objective is to automatically generate a vast amount of high-quality multi-t
 
 2. Utilize existing Large Language Models (LLMs), e.g., paid APIs, to produce multi-turn QAs. The reference material serves as input, and the prompt is akin to "Please generate a multi-turn dialogue based on this article." The API then generates a section of multi-turn dialogue. This process transforms the reference material used for pre-training into multi-turn dialogues suitable for fine-tuning. Postprocessing may be required.
 
-3. After amassing a considerable number of reference-dialogue pairs from step 2, we input the reference-prompt pairs and use the dialogues as targets for fine-tuning a GPT model. This model may be based on pre-training platforms like LLaMA or BLOOM. We refer to the resulting fine-tuned model as a *Reference-Enlightened-Dialogue GPT (RedGPT)*. Then we can use RedGPT to generate massive amounts of dialogues based on references.
+3. After amassing a considerable number of reference-dialogue pairs from step 2, we input the reference-prompt pairs and use the dialogues as targets for fine-tuning a GPT model. This model may be based on pre-training platforms like LLaMA or BLOOM. We refer to the resulting fine-tuned model as a *Reference-Enlightened-Dialogue GPT (RefGPT)*. Then we can use RefGPT to generate massive amounts of dialogues based on references.
 
 
 
