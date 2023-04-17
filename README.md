@@ -124,7 +124,7 @@
 ```bibtex
 @misc{refgpt,
   author = {Dongjie Yang and Ruifeng Yuan and Yuantao Fan and and Yifei Yang and Zili Wang and Shusen Wang},
-  title = {RedGPT: Reference-to-Dialogue by GPT and for GPT},
+  title = {RefGPT: Reference-to-Dialogue by GPT and for GPT},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
