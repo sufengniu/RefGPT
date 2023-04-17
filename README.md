@@ -1,8 +1,8 @@
-# RedGPT: Reference-Enlightened-Dialogue by GPT and for GPT
+# RefGPT: Reference-to-Dialogue by GPT and for GPT
 
 [[English Version](README_EN.md)]
 
-众所周知，事实正确性是ChatGPT的一大薄弱环节，也是所有试图复现ChatGPT的同行们所面临的重大挑战。想要提升事实正确性，可以标注大量的事实型对话数据（比如人物、科技、医疗、法律、艺术）用于微调GPT模型。为了避免人工标注的昂贵成本，我们提出一种自动生成事实型对话的方法，并公开我们的部分数据。我们公开的第一批数据（RedGPT-Dataset-V1-CN）共包含5万条中文多轮对话。
+众所周知，事实正确性是ChatGPT的一大薄弱环节，也是所有试图复现ChatGPT的同行们所面临的重大挑战。想要提升事实正确性，可以标注大量的事实型对话数据（比如人物、科技、医疗、法律、艺术）用于微调GPT模型。为了避免人工标注的昂贵成本，我们提出一种自动生成事实型对话的方法，并公开我们的部分数据。我们公开的第一批数据（RefGPT-Dataset-V1-CN）共包含5万条中文多轮对话。
 
 
 
@@ -13,7 +13,7 @@
 
 1. 采集优质的事实型文档，我们称之为reference，其来源可以是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题，包括但不限于人物、机构、科技、医疗、法律、人文、经济、家居、汽车、出行、美食、时尚、体育、教育、宠物。
 2. 利用已有的LLM（例如付费API）生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API会输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。
-3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作*Reference-Enlightened-Dialogue GPT*，缩写*RedGPT*。有了RedGPT，即可基于reference生成多轮对话，获得海量的数据。
+3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作*Reference-Enlightened-Dialogue GPT*，缩写*RefGPT*。有了RefGPT，即可基于reference生成多轮对话，获得海量的数据。
 
 
 外界复现我们的方法时，需要关注2个要点。
@@ -23,7 +23,7 @@
 
 ## 数据公开
 
-我们使用上述步骤1和2获得大量多轮对话。我们公开其中部分数据，称之为“RedGPT-Dataset-V1-CN”，包含5万对中文reference-dialogue二元组，其中dialog是基于reference生成的多轮对话。
+我们使用上述步骤1和2获得大量多轮对话。我们公开其中部分数据，称之为“RefGPT-Dataset-V1-CN”，包含5万对中文reference-dialogue二元组，其中dialog是基于reference生成的多轮对话。
 
 ### 例1：
 
