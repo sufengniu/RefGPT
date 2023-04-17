@@ -13,7 +13,7 @@
 
 1. 采集优质的事实型文档，我们称之为reference，其来源可以是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题，包括但不限于人物、机构、科技、医疗、法律、人文、经济、家居、汽车、出行、美食、时尚、体育、教育、宠物。
 2. 利用已有的LLM（例如付费API）生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API会输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。
-3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作*Reference-Enlightened-Dialogue GPT*，缩写*RefGPT*。有了RefGPT，即可基于reference生成多轮对话，获得海量的数据。
+3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作*Reference-to-Dialogue GPT*，缩写*RefGPT*。有了RefGPT，即可基于reference生成多轮对话，获得海量的数据。
 
 
 外界复现我们的方法时，需要关注2个要点。
