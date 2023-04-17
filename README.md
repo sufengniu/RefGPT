@@ -122,13 +122,13 @@
 如果你使用我们的方法或数据，请引用本GitHub Repo。
 
 ```bibtex
-@misc{redgpt,
+@misc{refgpt,
   author = {Dongjie Yang and Ruifeng Yuan and Yuantao Fan and and Yifei Yang and Zili Wang and Shusen Wang},
-  title = {RedGPT: Reference-Enlightened-Dialogue by GPT and for GPT},
+  title = {RedGPT: Reference-to-Dialogue by GPT and for GPT},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ziliwangnlp/RedGPT}},
+  howpublished = {\url{https://github.com/ziliwangnlp/RefGPT}},
 }
 ```
 
